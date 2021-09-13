@@ -14,7 +14,7 @@ public class FriendlyLocators {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Downloads\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		driver.get("https://*");
 		WebElement editBox = driver.findElement(By.cssSelector("[name='name']"));
 		// need to import manually withTagName() method
 		System.out.println(driver.findElement(RelativeLocator.with(By.tagName("label")).above(editBox)).getText());
