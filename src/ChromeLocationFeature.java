@@ -28,8 +28,7 @@ public class ChromeLocationFeature {
 		driver.findElement(By.name("q")).sendKeys("netflix", Keys.ENTER);
 		driver.findElements(By.cssSelector(".LC20lb")).get(0).click();
 		String title = driver.findElement(By.cssSelector(".our-story-card-title")).getText();
-		//driver.findElement(By.name("q")).sendKeys("interactive brokers", Keys.ENTER);
-//		driver.findElements(By.cssSelector(".cfxYMc")).get(0).click();
+		
 //		String title = driver.findElements(By.xpath("//div/h1")).get(0).getText();
 	    System.out.println(title);
 		
