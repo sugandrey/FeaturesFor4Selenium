@@ -19,7 +19,7 @@ public class CDPCommandsTest {
 		params.put("deviceScaleFactor", 50);
 		params.put("mobile", true);
 		driver.executeCdpCommand("Emulation.setDeviceMetricsOverride", params);
-		driver.get("https://rahulshettyacademy.com/angularAppdemo/");
+		driver.get("https://*");
 		driver.findElement(By.cssSelector(".navbar-toggler-icon")).click();
 		try {
 			Thread.sleep(3000);
