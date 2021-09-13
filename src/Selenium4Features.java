@@ -16,7 +16,7 @@ public class Selenium4Features {
 		devTools.send(Emulation.setDeviceMetricsOverride(600, 1000, 50, true, 
 		Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), 
 		Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty()));
-		driver.get("https://rahulshettyacademy.com/angularAppdemo/");
+		driver.get("https://*/");
 		driver.findElement(By.cssSelector(".navbar-toggler-icon")).click();
 		try {
 			Thread.sleep(3000);
