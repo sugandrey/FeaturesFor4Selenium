@@ -35,7 +35,7 @@ public class NetworkMocking {
 						Optional.of(request.getRequest().getMethod()), Optional.empty(), Optional.empty()));
 			}
 		});
-		driver.get("https://rahulshettyacademy.com/angularAppdemo/");
+		driver.get("https://*");
 		driver.findElement(By.cssSelector("button[routerlink='/library']")).click();
 		try {
 			Thread.sleep(3000);
