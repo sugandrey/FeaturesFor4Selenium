@@ -13,7 +13,7 @@ public class SwitchWindowsProject {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Downloads\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		driver.get("https://*");
 		driver.switchTo().newWindow(WindowType.TAB);
 		Set<String> tabs = driver.getWindowHandles();
 		Iterator<String> iterator = tabs.iterator();
