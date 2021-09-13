@@ -33,7 +33,7 @@ public class NetworkLogActivity {
 			//System.out.println(res.getStatus());
 			
 		});
-		driver.get("https://rahulshettyacademy.com/angularAppdemo/");
+		driver.get("https://*");
 		driver.findElement(By.cssSelector("button[routerlink='/library']")).click();
 	}
 
